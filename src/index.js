@@ -6,7 +6,7 @@ import {createStore} from 'redux'
 import manageUsers from './reducers/manageUsers'
 
 
-
+const store = createStore(manageUsers)
 
 
 ReactDOM.render(
